@@ -27,7 +27,6 @@ public class Toaster
         broad = new Broad();
         if (isRun)
         {
-            //Клас
             heatSink.warmUp();
             broad.toastCompleted();
         }
