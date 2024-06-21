@@ -1,6 +1,6 @@
 public class HeatSink
 {
-    private static double temperature;
+    private static double temperature; //Зазначено модифікатор private тому, що я слідкувала принципу інкапсуляції
 
     public HeatSink()
     {

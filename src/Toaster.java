@@ -2,10 +2,10 @@ public class Toaster
 {
 
     // Перевіряє, чи працює тостер?
-    private static boolean isRun;
+    private static boolean isRun; //Зазначено модифікатор private тому, що я слідкувала принципу інкапсуляції
     // Кнопка, яка буде запускати тостер
-    private Button runButton;
-    private HeatSink heatSink;
+    private Button runButton; //Зазначено модифікатор private тому, що я слідкувала принципу інкапсуляції
+    private HeatSink heatSink; //Зазначено модифікатор private тому, що я слідкувала принципу інкапсуляції
 
     public Toaster()
     {
