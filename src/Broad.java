@@ -10,6 +10,7 @@ public class Broad
 
     public void toastCompleted()
     {
+        //Тостер
         isToasted = true;
     }
 }

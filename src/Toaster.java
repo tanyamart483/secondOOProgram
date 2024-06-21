@@ -1,5 +1,6 @@
 public class Toaster
 {
+
     // Перевіряє, чи працює тостер?
     private static boolean isRun;
     // Кнопка, яка буде запускати тостер
@@ -26,11 +27,16 @@ public class Toaster
         broad = new Broad();
         if (isRun)
         {
+            //Клас
             heatSink.warmUp();
             broad.toastCompleted();
         }
 
         return broad;
     }
+    public static void main(String[] args) {
+        // Створення об’єктів класів
+    }
 }
+
 

@@ -4,6 +4,7 @@ public class HeatSink
 
     public HeatSink()
     {
+        //середа
         temperature = 0.0;
     }
 
