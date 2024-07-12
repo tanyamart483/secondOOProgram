@@ -33,8 +33,9 @@ public class Toaster
 
         return broad;
     }
-    public static void main(String[] args) {
-        // Створення об’єктів класів
+    public static void main(String[] args)
+    {
+        Toaster toaster = new Toaster(); // Створення об’єктів класів
     }
 }
 
